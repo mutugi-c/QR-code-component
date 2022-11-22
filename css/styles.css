@@ -1,0 +1,29 @@
+:root {
+  --color-primary: hsl(218, 44%, 22%);
+  --color-secondary: hsl(212, 45%, 89%);
+  --color-body: hsl(0, 0%, 100%);
+  --color-background: hsl(218, 44%, 22%);
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+body {
+  color: var(--color-secondary);
+  background: var(--color-body);
+  font-family: Outfit;
+  font-size: 0.9rem;
+}
+h1 {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+}
+
+img {
+  width: 20%;
+}
+
+.container {
+  width: 375px;
+}
