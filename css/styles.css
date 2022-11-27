@@ -1,29 +1,40 @@
 :root {
-  --color-primary: hsl(218, 44%, 22%);
-  --color-secondary: hsl(212, 45%, 89%);
-  --color-body: hsl(0, 0%, 100%);
-  --color-background: hsl(218, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
 }
 
-/* Typography */
-html {
-  font-size: 62.5%;
-}
 body {
-  color: var(--color-secondary);
-  background: var(--color-body);
-  font-family: Outfit;
-  font-size: 0.9rem;
+  color: var(--grayish-blue);
+  background: var(--light-gray);
 }
+
 h1 {
-  color: var(--color-primary);
+  color: var(--dark-blue);
   font-size: 1.5rem;
 }
 
-img {
-  width: 20%;
+.qr_container {
+  max-width: 320px;
+  background: var(--white);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  align-items: center;
+  height: 470px;
+  margin: auto;
+  justify-content: center;
+  margin-top: 200px;
 }
 
-.container {
-  width: 375px;
+.qr_image {
+  border-radius: 10px;
+  max-width: 290px;
+}
+
+.qr_body {
+  padding: 0 1rem 0 1rem;
 }
