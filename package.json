@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/mutugi-c/QR-code-component#readme",
   "devDependencies": {
-    "cssnano": "^5.1.14",
-    "postcss": "^8.4.19"
+    "parcel-bundler": "^1.12.5"
   }
 }
